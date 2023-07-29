@@ -16,6 +16,7 @@
                 <sourceRootElem>.</sourceRootElem>
                 <sourceRootElem>../CANopenNode</sourceRootElem>
                 <sourceRootElem>../port</sourceRootElem>
+                <sourceRootElem>../configs/generated</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

@@ -1,0 +1,60 @@
+mainmenu "dsPIC bootloader configuration"
+
+choice
+    prompt "Device"
+    config dsPIC33FJ128MC706A
+        bool "dsPIC33FJ128MC706A"
+endchoice
+
+menu "Clock Configuration"
+    #
+    # Fosc = ((CLK_SOURCE_MHZ * 1e6 ) * CLK_PLL_MULTIPLIER) / (CLK_PLL_PRE * CLK_PLL_POST_DIV)
+    # Fcy = Fosc / 2
+    #
+    config CLK_SOURCE_MHZ
+        int "Clock Source Frequency (Fosc) in MHz"
+        default 8
+
+    config CLK_PLL_PRE
+        int "Prescaler"
+        range 2 33
+        default 2
+ 
+   config CLK_PLL_MULTIPLIER
+        int "PLL multiplier"
+        range 2 513
+        default 48
+        
+    choice
+        prompt "Postscaler"
+        default "CLK_PLL_POST_DIV4"
+        config CLK_PLL_POST_DIV2
+            bool "/2"
+        config CLK_PLL_POST_DIV4
+            bool "/4"
+        config CLK_PLL_POST_DIV8
+            bool "/8"
+    endchoice
+
+    config CLK_PLL_POST
+        int
+        default 0 if CLK_PLL_POST_DIV2
+        default 1 if CLK_PLL_POST_DIV4
+        default 3 if CLK_PLL_POST_DIV8
+endmenu
+
+menu "CAN configuration"
+    config CAN_COUNT
+        int
+        default 1 if dsPIC33FJ128MC706A
+    choice
+        prompt "Peripheral"
+        config CAN1
+            depends on (CAN_COUNT >= 1)
+            bool "CAN1"
+        config CAN2
+            depends on (CAN_COUNT >= 2)
+            bool "CAN2"
+    endchoice
+endmenu
+    

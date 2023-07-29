@@ -102,12 +102,18 @@
 void CO_CANsetConfigurationMode(void *CANptr){
     uint16_t C_CTRL1copy = CAN_REG(CANptr, C_CTRL1);
 
-    /* set REQOP = 0x4 */
+    /* 
+     * REQOP (Request Operation Mode Bits
+     * 0b100 = Set Configuration Mode
+     */
     C_CTRL1copy &= 0xFCFF;
     C_CTRL1copy |= 0x0400;
     CAN_REG(CANptr, C_CTRL1) = C_CTRL1copy;
 
-    /* while OPMODE != 4 */
+    /* 
+     * OPMODE (Operation Mode Bits) 
+     * Wait until OPMODE<OPMODE> is in Configuration Mode (0b100)
+     */
     while((CAN_REG(CANptr, C_CTRL1) & 0x00E0) != 0x0080);
 }
 
@@ -116,11 +122,17 @@ void CO_CANsetConfigurationMode(void *CANptr){
 void CO_CANsetNormalMode(CO_CANmodule_t *CANmodule){
     uint16_t C_CTRL1copy = CAN_REG(CANmodule->CANptr, C_CTRL1);
 
-    /* set REQOP = 0x0 */
+    /* 
+     * REQOP (Request Operation Mode Bits
+     * 0b000 = Set Normal Operation Mode
+     */
     C_CTRL1copy &= 0xF8FF;
     CAN_REG(CANmodule->CANptr, C_CTRL1) = C_CTRL1copy;
 
-    /* while OPMODE != 0 */
+    /* 
+     * OPMODE (Operation Mode Bits) 
+     * Wait until OPMODE<OPMODE> is in Normal Operation Mode (0b000)
+     */
     while((CAN_REG(CANmodule->CANptr, C_CTRL1) & 0x00E0) != 0x0000);
 
     CANmodule->CANnormal = true;
@@ -238,9 +250,9 @@ CO_ReturnError_t CO_CANmodule_init(
 
     /* setup RX and TX control registers */
     CAN_REG(CANptr, C_CTRL1) &= 0xFFFE;     /* WIN = 0 - use buffer registers */
-    CAN_REG(CANptr, C_RXFUL1) = 0x0000;
+    CAN_REG(CANptr, C_RXFUL1) = 0x0000;     /* Clear all buffer full bits */
     CAN_REG(CANptr, C_RXFUL2) = 0x0000;
-    CAN_REG(CANptr, C_RXOVF1) = 0x0000;
+    CAN_REG(CANptr, C_RXOVF1) = 0x0000;     /* Clear all buffer overflow bits */
     CAN_REG(CANptr, C_RXOVF2) = 0x0000;
     CAN_REG(CANptr, C_TR01CON) = 0x0080;    /* use one buffer for transmission */
     CAN_REG(CANptr, C_TR23CON) = 0x0000;

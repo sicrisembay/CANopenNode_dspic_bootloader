@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=bootloader.c OD.c ../CANopenNode/301/CO_Emergency.c ../CANopenNode/301/CO_fifo.c ../CANopenNode/301/CO_HBconsumer.c ../CANopenNode/301/CO_NMT_Heartbeat.c ../CANopenNode/301/CO_ODinterface.c ../CANopenNode/301/CO_PDO.c ../CANopenNode/301/CO_SDOclient.c ../CANopenNode/301/CO_SDOserver.c ../CANopenNode/301/CO_SYNC.c ../CANopenNode/301/CO_TIME.c ../CANopenNode/301/crc16-ccitt.c ../CANopenNode/305/CO_LSSmaster.c ../CANopenNode/305/CO_LSSslave.c ../CANopenNode/CANopen.c ../port/dsPIC33/CO_driver.c
+SOURCEFILES_QUOTED_IF_SPACED=../CANopenNode/301/CO_Emergency.c ../CANopenNode/301/CO_fifo.c ../CANopenNode/301/CO_HBconsumer.c ../CANopenNode/301/CO_NMT_Heartbeat.c ../CANopenNode/301/CO_ODinterface.c ../CANopenNode/301/CO_PDO.c ../CANopenNode/301/CO_SDOclient.c ../CANopenNode/301/CO_SDOserver.c ../CANopenNode/301/CO_SYNC.c ../CANopenNode/301/CO_TIME.c ../CANopenNode/301/crc16-ccitt.c ../CANopenNode/305/CO_LSSmaster.c ../CANopenNode/305/CO_LSSslave.c ../CANopenNode/CANopen.c ../port/dsPIC33/CO_driver.c bootloader.c OD.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/bootloader.o ${OBJECTDIR}/OD.o ${OBJECTDIR}/_ext/1688412750/CO_Emergency.o ${OBJECTDIR}/_ext/1688412750/CO_fifo.o ${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o ${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o ${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o ${OBJECTDIR}/_ext/1688412750/CO_PDO.o ${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o ${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o ${OBJECTDIR}/_ext/1688412750/CO_SYNC.o ${OBJECTDIR}/_ext/1688412750/CO_TIME.o ${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o ${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o ${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o ${OBJECTDIR}/_ext/398055091/CANopen.o ${OBJECTDIR}/_ext/285522308/CO_driver.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/bootloader.o.d ${OBJECTDIR}/OD.o.d ${OBJECTDIR}/_ext/1688412750/CO_Emergency.o.d ${OBJECTDIR}/_ext/1688412750/CO_fifo.o.d ${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o.d ${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o.d ${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o.d ${OBJECTDIR}/_ext/1688412750/CO_PDO.o.d ${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o.d ${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o.d ${OBJECTDIR}/_ext/1688412750/CO_SYNC.o.d ${OBJECTDIR}/_ext/1688412750/CO_TIME.o.d ${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o.d ${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o.d ${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o.d ${OBJECTDIR}/_ext/398055091/CANopen.o.d ${OBJECTDIR}/_ext/285522308/CO_driver.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1688412750/CO_Emergency.o ${OBJECTDIR}/_ext/1688412750/CO_fifo.o ${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o ${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o ${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o ${OBJECTDIR}/_ext/1688412750/CO_PDO.o ${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o ${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o ${OBJECTDIR}/_ext/1688412750/CO_SYNC.o ${OBJECTDIR}/_ext/1688412750/CO_TIME.o ${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o ${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o ${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o ${OBJECTDIR}/_ext/398055091/CANopen.o ${OBJECTDIR}/_ext/285522308/CO_driver.o ${OBJECTDIR}/bootloader.o ${OBJECTDIR}/OD.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1688412750/CO_Emergency.o.d ${OBJECTDIR}/_ext/1688412750/CO_fifo.o.d ${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o.d ${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o.d ${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o.d ${OBJECTDIR}/_ext/1688412750/CO_PDO.o.d ${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o.d ${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o.d ${OBJECTDIR}/_ext/1688412750/CO_SYNC.o.d ${OBJECTDIR}/_ext/1688412750/CO_TIME.o.d ${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o.d ${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o.d ${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o.d ${OBJECTDIR}/_ext/398055091/CANopen.o.d ${OBJECTDIR}/_ext/285522308/CO_driver.o.d ${OBJECTDIR}/bootloader.o.d ${OBJECTDIR}/OD.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/bootloader.o ${OBJECTDIR}/OD.o ${OBJECTDIR}/_ext/1688412750/CO_Emergency.o ${OBJECTDIR}/_ext/1688412750/CO_fifo.o ${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o ${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o ${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o ${OBJECTDIR}/_ext/1688412750/CO_PDO.o ${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o ${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o ${OBJECTDIR}/_ext/1688412750/CO_SYNC.o ${OBJECTDIR}/_ext/1688412750/CO_TIME.o ${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o ${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o ${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o ${OBJECTDIR}/_ext/398055091/CANopen.o ${OBJECTDIR}/_ext/285522308/CO_driver.o
+OBJECTFILES=${OBJECTDIR}/_ext/1688412750/CO_Emergency.o ${OBJECTDIR}/_ext/1688412750/CO_fifo.o ${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o ${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o ${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o ${OBJECTDIR}/_ext/1688412750/CO_PDO.o ${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o ${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o ${OBJECTDIR}/_ext/1688412750/CO_SYNC.o ${OBJECTDIR}/_ext/1688412750/CO_TIME.o ${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o ${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o ${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o ${OBJECTDIR}/_ext/398055091/CANopen.o ${OBJECTDIR}/_ext/285522308/CO_driver.o ${OBJECTDIR}/bootloader.o ${OBJECTDIR}/OD.o
 
 # Source Files
-SOURCEFILES=bootloader.c OD.c ../CANopenNode/301/CO_Emergency.c ../CANopenNode/301/CO_fifo.c ../CANopenNode/301/CO_HBconsumer.c ../CANopenNode/301/CO_NMT_Heartbeat.c ../CANopenNode/301/CO_ODinterface.c ../CANopenNode/301/CO_PDO.c ../CANopenNode/301/CO_SDOclient.c ../CANopenNode/301/CO_SDOserver.c ../CANopenNode/301/CO_SYNC.c ../CANopenNode/301/CO_TIME.c ../CANopenNode/301/crc16-ccitt.c ../CANopenNode/305/CO_LSSmaster.c ../CANopenNode/305/CO_LSSslave.c ../CANopenNode/CANopen.c ../port/dsPIC33/CO_driver.c
+SOURCEFILES=../CANopenNode/301/CO_Emergency.c ../CANopenNode/301/CO_fifo.c ../CANopenNode/301/CO_HBconsumer.c ../CANopenNode/301/CO_NMT_Heartbeat.c ../CANopenNode/301/CO_ODinterface.c ../CANopenNode/301/CO_PDO.c ../CANopenNode/301/CO_SDOclient.c ../CANopenNode/301/CO_SDOserver.c ../CANopenNode/301/CO_SYNC.c ../CANopenNode/301/CO_TIME.c ../CANopenNode/301/crc16-ccitt.c ../CANopenNode/305/CO_LSSmaster.c ../CANopenNode/305/CO_LSSslave.c ../CANopenNode/CANopen.c ../port/dsPIC33/CO_driver.c bootloader.c OD.c
 
 
 
@@ -95,210 +95,210 @@ MP_LINKER_FILE_OPTION=,--script=p33FJ128MC706A.gld
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/bootloader.o: bootloader.c  .generated_files/c177a6be43805f028da254a4a908dc0f961d9abc.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/bootloader.o.d 
-	@${RM} ${OBJECTDIR}/bootloader.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  bootloader.c  -o ${OBJECTDIR}/bootloader.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/bootloader.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
-	
-${OBJECTDIR}/OD.o: OD.c  .generated_files/c4b502a515da6abdceb31f527ee403e4d5e736dc.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/OD.o.d 
-	@${RM} ${OBJECTDIR}/OD.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  OD.c  -o ${OBJECTDIR}/OD.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/OD.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
-	
-${OBJECTDIR}/_ext/1688412750/CO_Emergency.o: ../CANopenNode/301/CO_Emergency.c  .generated_files/a287b85b45553e4b5a7b7785a11a6feda7d3500d.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_Emergency.o: ../CANopenNode/301/CO_Emergency.c  .generated_files/e390ac19b8e2c6338a0f092f67bae9755543a0d2.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_Emergency.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_Emergency.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_Emergency.c  -o ${OBJECTDIR}/_ext/1688412750/CO_Emergency.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_Emergency.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_Emergency.c  -o ${OBJECTDIR}/_ext/1688412750/CO_Emergency.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_Emergency.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_fifo.o: ../CANopenNode/301/CO_fifo.c  .generated_files/ad7cae217ff6b4e74ae4461d68b0c4a8ffb005b2.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_fifo.o: ../CANopenNode/301/CO_fifo.c  .generated_files/869bde7202d0f39ebb2600a70f49e0054a3df185.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_fifo.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_fifo.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_fifo.c  -o ${OBJECTDIR}/_ext/1688412750/CO_fifo.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_fifo.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_fifo.c  -o ${OBJECTDIR}/_ext/1688412750/CO_fifo.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_fifo.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o: ../CANopenNode/301/CO_HBconsumer.c  .generated_files/29a72ccdaf932d024ed38df4340457c33a9193ec.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o: ../CANopenNode/301/CO_HBconsumer.c  .generated_files/5541c4bdd29239c8d8d29dba66acaf7c290cc09.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_HBconsumer.c  -o ${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_HBconsumer.c  -o ${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o: ../CANopenNode/301/CO_NMT_Heartbeat.c  .generated_files/8cba1d0b112a6f6656056d372e1d60c64b711a42.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o: ../CANopenNode/301/CO_NMT_Heartbeat.c  .generated_files/29c03033959fd5b24e284efbfb76a9e74499c6d2.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_NMT_Heartbeat.c  -o ${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_NMT_Heartbeat.c  -o ${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o: ../CANopenNode/301/CO_ODinterface.c  .generated_files/757a0525fa04f00ca3dc96cb8513b8e174b18634.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o: ../CANopenNode/301/CO_ODinterface.c  .generated_files/9ecd7736696e1fb32806146fb58e6f27724ef6c0.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_ODinterface.c  -o ${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_ODinterface.c  -o ${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_PDO.o: ../CANopenNode/301/CO_PDO.c  .generated_files/12bc626fb9e36c72e71256c1aeb1828f4238ccc9.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_PDO.o: ../CANopenNode/301/CO_PDO.c  .generated_files/154c9a1d27ce0510a866d4f5559fad5d4bf011cb.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_PDO.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_PDO.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_PDO.c  -o ${OBJECTDIR}/_ext/1688412750/CO_PDO.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_PDO.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_PDO.c  -o ${OBJECTDIR}/_ext/1688412750/CO_PDO.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_PDO.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o: ../CANopenNode/301/CO_SDOclient.c  .generated_files/8d84c7fb7a4362279b83974d4acbdb8c963189f9.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o: ../CANopenNode/301/CO_SDOclient.c  .generated_files/14750db6fb5a00769802f21973c9d773e5922be8.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_SDOclient.c  -o ${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_SDOclient.c  -o ${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o: ../CANopenNode/301/CO_SDOserver.c  .generated_files/763acbd932bb7e5d150b5ff5df08eae3e2f35316.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o: ../CANopenNode/301/CO_SDOserver.c  .generated_files/3d9b0794a3904297de26957dc28b2ea432710234.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_SDOserver.c  -o ${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_SDOserver.c  -o ${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_SYNC.o: ../CANopenNode/301/CO_SYNC.c  .generated_files/161ca53629336fbb4352a16a924a47e4ff36d87d.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_SYNC.o: ../CANopenNode/301/CO_SYNC.c  .generated_files/78787bc70350ad4c370825d209af6ecc840e7352.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_SYNC.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_SYNC.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_SYNC.c  -o ${OBJECTDIR}/_ext/1688412750/CO_SYNC.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_SYNC.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_SYNC.c  -o ${OBJECTDIR}/_ext/1688412750/CO_SYNC.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_SYNC.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_TIME.o: ../CANopenNode/301/CO_TIME.c  .generated_files/99a97be906f93798099a705151f3eb73eeeaa962.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_TIME.o: ../CANopenNode/301/CO_TIME.c  .generated_files/41a064a306d7f871d29dcc0a16b28056639360f8.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_TIME.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_TIME.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_TIME.c  -o ${OBJECTDIR}/_ext/1688412750/CO_TIME.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_TIME.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_TIME.c  -o ${OBJECTDIR}/_ext/1688412750/CO_TIME.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_TIME.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o: ../CANopenNode/301/crc16-ccitt.c  .generated_files/5e51c45bbcc26ea3721df3e765f92a86706e4b1f.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o: ../CANopenNode/301/crc16-ccitt.c  .generated_files/81086b8c6b0f7081c784c1c560414483f695bfb5.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/crc16-ccitt.c  -o ${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/crc16-ccitt.c  -o ${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o: ../CANopenNode/305/CO_LSSmaster.c  .generated_files/c9bcbfe3cc2da03a317452c2b004f69d9ca0df65.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o: ../CANopenNode/305/CO_LSSmaster.c  .generated_files/e8aa52db9b036e40f341a7c7a53826d27de1874b.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412746" 
 	@${RM} ${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/305/CO_LSSmaster.c  -o ${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/305/CO_LSSmaster.c  -o ${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o: ../CANopenNode/305/CO_LSSslave.c  .generated_files/ead02ba4b8a987907b79508220f334bbae9584c1.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o: ../CANopenNode/305/CO_LSSslave.c  .generated_files/5dcb9ab0f235160f67593716a26a9e0d5b542a40.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412746" 
 	@${RM} ${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/305/CO_LSSslave.c  -o ${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/305/CO_LSSslave.c  -o ${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/398055091/CANopen.o: ../CANopenNode/CANopen.c  .generated_files/c826ebd846b57528754067253fcabefb6e254dca.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/398055091/CANopen.o: ../CANopenNode/CANopen.c  .generated_files/8026b6441a33803c410342d04ae4417ecb36956d.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/398055091" 
 	@${RM} ${OBJECTDIR}/_ext/398055091/CANopen.o.d 
 	@${RM} ${OBJECTDIR}/_ext/398055091/CANopen.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/CANopen.c  -o ${OBJECTDIR}/_ext/398055091/CANopen.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/398055091/CANopen.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/CANopen.c  -o ${OBJECTDIR}/_ext/398055091/CANopen.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/398055091/CANopen.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/285522308/CO_driver.o: ../port/dsPIC33/CO_driver.c  .generated_files/c2e8009ec69c3d734699254e345fbc87e4fcb268.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/285522308/CO_driver.o: ../port/dsPIC33/CO_driver.c  .generated_files/fc4bc1f94b1344dded9264013bb959da20540b55.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/285522308" 
 	@${RM} ${OBJECTDIR}/_ext/285522308/CO_driver.o.d 
 	@${RM} ${OBJECTDIR}/_ext/285522308/CO_driver.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../port/dsPIC33/CO_driver.c  -o ${OBJECTDIR}/_ext/285522308/CO_driver.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/285522308/CO_driver.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../port/dsPIC33/CO_driver.c  -o ${OBJECTDIR}/_ext/285522308/CO_driver.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/285522308/CO_driver.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	
+${OBJECTDIR}/bootloader.o: bootloader.c  .generated_files/74e6172814d7c586024bbd2fc87590d28c6cefee.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/bootloader.o.d 
+	@${RM} ${OBJECTDIR}/bootloader.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  bootloader.c  -o ${OBJECTDIR}/bootloader.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/bootloader.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	
+${OBJECTDIR}/OD.o: OD.c  .generated_files/e0e70b69c0e31c1cf7cdacfea22cb27a83645454.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/OD.o.d 
+	@${RM} ${OBJECTDIR}/OD.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  OD.c  -o ${OBJECTDIR}/OD.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/OD.o.d"      -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1    -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
 else
-${OBJECTDIR}/bootloader.o: bootloader.c  .generated_files/27ab0450cd66253d740daa7ad73d6867c6b978c0.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/bootloader.o.d 
-	@${RM} ${OBJECTDIR}/bootloader.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  bootloader.c  -o ${OBJECTDIR}/bootloader.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/bootloader.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
-	
-${OBJECTDIR}/OD.o: OD.c  .generated_files/f2d709e00f82347b8af66e218e89f14913db7b6d.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/OD.o.d 
-	@${RM} ${OBJECTDIR}/OD.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  OD.c  -o ${OBJECTDIR}/OD.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/OD.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
-	
-${OBJECTDIR}/_ext/1688412750/CO_Emergency.o: ../CANopenNode/301/CO_Emergency.c  .generated_files/44ddbf45c1a0e1f1e459c451f6fcde6d6717d25b.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_Emergency.o: ../CANopenNode/301/CO_Emergency.c  .generated_files/a7ddb2522a86daaa522cb715b6ce0a97c13c3080.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_Emergency.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_Emergency.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_Emergency.c  -o ${OBJECTDIR}/_ext/1688412750/CO_Emergency.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_Emergency.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_Emergency.c  -o ${OBJECTDIR}/_ext/1688412750/CO_Emergency.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_Emergency.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_fifo.o: ../CANopenNode/301/CO_fifo.c  .generated_files/4bac94a01be8d4fd9c172ed2805508454b54f30c.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_fifo.o: ../CANopenNode/301/CO_fifo.c  .generated_files/b9b39ab160c7aaa1cef12b254276455052c22c66.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_fifo.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_fifo.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_fifo.c  -o ${OBJECTDIR}/_ext/1688412750/CO_fifo.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_fifo.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_fifo.c  -o ${OBJECTDIR}/_ext/1688412750/CO_fifo.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_fifo.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o: ../CANopenNode/301/CO_HBconsumer.c  .generated_files/bb4352eee33dff8f1a7985ffb679fb6512f238f2.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o: ../CANopenNode/301/CO_HBconsumer.c  .generated_files/4d30750cf87a6ee56c423ac760100ad37ea7873b.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_HBconsumer.c  -o ${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_HBconsumer.c  -o ${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_HBconsumer.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o: ../CANopenNode/301/CO_NMT_Heartbeat.c  .generated_files/3464cc05874e801ccf2b6c51155c626d70d680d9.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o: ../CANopenNode/301/CO_NMT_Heartbeat.c  .generated_files/43dc9ecc9d92d7708780baa271ef8b0c9edfb17.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_NMT_Heartbeat.c  -o ${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_NMT_Heartbeat.c  -o ${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_NMT_Heartbeat.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o: ../CANopenNode/301/CO_ODinterface.c  .generated_files/7fdb60c1f9403114342f52fea1ac893ee7d94fbb.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o: ../CANopenNode/301/CO_ODinterface.c  .generated_files/8de04e14bd038f9e5f8fdac831c74a9f0fa4a7ad.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_ODinterface.c  -o ${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_ODinterface.c  -o ${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_ODinterface.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_PDO.o: ../CANopenNode/301/CO_PDO.c  .generated_files/b9c6b5b65c9d46710262688fa037c4e7195c1f08.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_PDO.o: ../CANopenNode/301/CO_PDO.c  .generated_files/d1db667de2f73a9af4b071f90fb555aae881261d.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_PDO.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_PDO.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_PDO.c  -o ${OBJECTDIR}/_ext/1688412750/CO_PDO.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_PDO.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_PDO.c  -o ${OBJECTDIR}/_ext/1688412750/CO_PDO.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_PDO.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o: ../CANopenNode/301/CO_SDOclient.c  .generated_files/de05b01dbb266d5bb7c5a1d5ef684e313b1217da.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o: ../CANopenNode/301/CO_SDOclient.c  .generated_files/59c45ae3c4b7d298241a25dce31377b09f658bea.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_SDOclient.c  -o ${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_SDOclient.c  -o ${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_SDOclient.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o: ../CANopenNode/301/CO_SDOserver.c  .generated_files/3e2e97416debec6cde2a4de4c016631985a18fa.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o: ../CANopenNode/301/CO_SDOserver.c  .generated_files/e0aa7d30ce2f350c10b87cb3f01b28110fffa97e.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_SDOserver.c  -o ${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_SDOserver.c  -o ${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_SDOserver.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_SYNC.o: ../CANopenNode/301/CO_SYNC.c  .generated_files/f125f4af5646e2bc69f11d4c6570cbc9595cb01b.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_SYNC.o: ../CANopenNode/301/CO_SYNC.c  .generated_files/969424fd22ea32b95540ddb03f846cb724ec3d62.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_SYNC.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_SYNC.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_SYNC.c  -o ${OBJECTDIR}/_ext/1688412750/CO_SYNC.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_SYNC.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_SYNC.c  -o ${OBJECTDIR}/_ext/1688412750/CO_SYNC.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_SYNC.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/CO_TIME.o: ../CANopenNode/301/CO_TIME.c  .generated_files/8253b0ccfbfd181faf1b4fac818239fa0612198a.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/CO_TIME.o: ../CANopenNode/301/CO_TIME.c  .generated_files/5928bb374ad56339240060032311a1d4d598c6b9.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_TIME.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/CO_TIME.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_TIME.c  -o ${OBJECTDIR}/_ext/1688412750/CO_TIME.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_TIME.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/CO_TIME.c  -o ${OBJECTDIR}/_ext/1688412750/CO_TIME.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/CO_TIME.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o: ../CANopenNode/301/crc16-ccitt.c  .generated_files/41e7149c9e1798a56df935dc504ab6b4b8082ed9.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o: ../CANopenNode/301/crc16-ccitt.c  .generated_files/991eddcd7791cb82f10742452811a6930af94faf.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412750" 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/crc16-ccitt.c  -o ${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/301/crc16-ccitt.c  -o ${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412750/crc16-ccitt.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o: ../CANopenNode/305/CO_LSSmaster.c  .generated_files/95db0000377428e1e58c1885d6b8b8a18f532497.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o: ../CANopenNode/305/CO_LSSmaster.c  .generated_files/4149e94daf6203ed41f8814ec8e1e27fd34ec766.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412746" 
 	@${RM} ${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/305/CO_LSSmaster.c  -o ${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/305/CO_LSSmaster.c  -o ${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412746/CO_LSSmaster.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o: ../CANopenNode/305/CO_LSSslave.c  .generated_files/119cc4eae085990c97cc51d3e486263686f37c44.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o: ../CANopenNode/305/CO_LSSslave.c  .generated_files/70a2cfeda747652408596c212bfad0a64c498af8.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1688412746" 
 	@${RM} ${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/305/CO_LSSslave.c  -o ${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/305/CO_LSSslave.c  -o ${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1688412746/CO_LSSslave.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/398055091/CANopen.o: ../CANopenNode/CANopen.c  .generated_files/85b11a03d39f10bbd6b34749d7ed9acb07680bb7.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/398055091/CANopen.o: ../CANopenNode/CANopen.c  .generated_files/17e70539d7214b1dcb37eda73b7c87068e178abf.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/398055091" 
 	@${RM} ${OBJECTDIR}/_ext/398055091/CANopen.o.d 
 	@${RM} ${OBJECTDIR}/_ext/398055091/CANopen.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/CANopen.c  -o ${OBJECTDIR}/_ext/398055091/CANopen.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/398055091/CANopen.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../CANopenNode/CANopen.c  -o ${OBJECTDIR}/_ext/398055091/CANopen.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/398055091/CANopen.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/_ext/285522308/CO_driver.o: ../port/dsPIC33/CO_driver.c  .generated_files/de93d2a1dd922c3f122a77a9aa0c82520768049b.flag .generated_files/f2d8753dcdac0392e3de6d3b1e390a8300501d3b.flag
+${OBJECTDIR}/_ext/285522308/CO_driver.o: ../port/dsPIC33/CO_driver.c  .generated_files/d40a86e5f27b3e1b6e7a877543dc801044176294.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/285522308" 
 	@${RM} ${OBJECTDIR}/_ext/285522308/CO_driver.o.d 
 	@${RM} ${OBJECTDIR}/_ext/285522308/CO_driver.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../port/dsPIC33/CO_driver.c  -o ${OBJECTDIR}/_ext/285522308/CO_driver.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/285522308/CO_driver.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../port/dsPIC33/CO_driver.c  -o ${OBJECTDIR}/_ext/285522308/CO_driver.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/285522308/CO_driver.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	
+${OBJECTDIR}/bootloader.o: bootloader.c  .generated_files/e552cab2401f5bfbb5d134032e886f5ae77ea9d7.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/bootloader.o.d 
+	@${RM} ${OBJECTDIR}/bootloader.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  bootloader.c  -o ${OBJECTDIR}/bootloader.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/bootloader.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	
+${OBJECTDIR}/OD.o: OD.c  .generated_files/3532ce94a8d490fa6a36381dc737eea3dc3de53c.flag .generated_files/b7541f3291fe7b63cd41edb6d34186dc81c6e08b.flag
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/OD.o.d 
+	@${RM} ${OBJECTDIR}/OD.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  OD.c  -o ${OBJECTDIR}/OD.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/OD.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -std=gnu99 -O0 -I"../CANopenNode" -I"../port/dsPIC33" -I"../bootloader.X" -I"../configs/generated" -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
 endif
 
