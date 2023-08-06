@@ -32,6 +32,7 @@
 
 #include "CANopen.h"
 #include "OD.h"
+#include "../302/CO_Prog_dsPIC33.h"
 
 //=================================================================================================
 // DSPIC33FJ128MC706A Configuration Bit Settings
@@ -116,12 +117,12 @@ int main()
     CLKDIVbits.PLLPRE = CONFIG_CLK_PLL_PRE - 2;
     OSCTUN = 0;             // Tune FRC oscillator, if FRC is used
     while(OSCCONbits.LOCK != 1);
-    
+
     /*
      * Determine Bootloader Mode
      */
     /// TODO
-    
+
     /*
      * Allocate CANopen object
      */
@@ -129,7 +130,7 @@ int main()
     if(CO == NULL) {
         while(1);
     }
-    
+
     while(reset != CO_RESET_APP) {
         /*
          * CANopen communication reset - initialize CANopen objects
@@ -138,7 +139,7 @@ int main()
         if(err != CO_ERROR_NO) {
             while(1);
         }
-        
+
         activeNodeId = pendingNodeId;
         err = CO_CANopenInit(CO,    // CANopen object
                              NULL,  // alternate NMT
@@ -155,11 +156,13 @@ int main()
         if(err != CO_ERROR_NO) {
             while(1);
         }
-        
+
         /* Start CAN */
         CO_CANsetNormalMode(CO->CANmodule);
         reset = CO_RESET_NOT;
-        
+
+        err = CO_Prog_dsPIC33_init(CO->CANmodule);
+
         /* Configure Timer interrupt function for execution every 1 millisecond */
         T2CON = 0;
         TMR2 = 0;
@@ -168,9 +171,14 @@ int main()
         T2CON = 0x8000;         /* start timer (TON=1) */
 
         while(reset == CO_RESET_NOT) {
+            if(IFS2bits.C1IF == 1) {
+                IFS2bits.C1IF = 0;
+                CO_CANinterrupt(CO->CANmodule);
+            }
+
             if(IFS0bits.T2IF == 1) {
                 IFS0bits.T2IF = 0;
-                
+
                 if(!CO->nodeIdUnconfigured && CO->CANmodule->CANnormal) {
                     timeDifference_us = 1000;
                     reset = CO_process(CO, false, timeDifference_us, NULL);

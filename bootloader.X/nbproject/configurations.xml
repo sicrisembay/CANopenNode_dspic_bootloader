@@ -16,6 +16,10 @@
           <itemPath>../CANopenNode/301/CO_TIME.c</itemPath>
           <itemPath>../CANopenNode/301/crc16-ccitt.c</itemPath>
         </logicalFolder>
+        <logicalFolder name="f1" displayName="302" projectFiles="true">
+          <itemPath>../302/CO_Prog_dsPIC33.c</itemPath>
+          <itemPath>../302/CO_Prog_dsPIC33.h</itemPath>
+        </logicalFolder>
         <logicalFolder name="305" displayName="305" projectFiles="true">
           <itemPath>../CANopenNode/305/CO_LSSmaster.c</itemPath>
           <itemPath>../CANopenNode/305/CO_LSSslave.c</itemPath>
@@ -33,10 +37,12 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>../configs/generated/autoconf.h</itemPath>
+      <itemPath>../linker/linker.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
                    projectFiles="true">
+      <itemPath>../linker/p33FJ128MC706A_boot.gld</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -56,6 +62,8 @@
     <Elem>../CANopenNode</Elem>
     <Elem>../port</Elem>
     <Elem>../configs/generated</Elem>
+    <Elem>../302</Elem>
+    <Elem>../linker</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -116,7 +124,7 @@
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="extra-include-directories"
-                  value="..\CANopenNode;..\port\dsPIC33;..\bootloader.X;..\configs\generated"/>
+                  value="..\CANopenNode;..\port\dsPIC33;..\bootloader.X;..\configs\generated;..\linker"/>
         <property key="isolate-each-function" value="false"/>
         <property key="keep-inline" value="false"/>
         <property key="oXC16gcc-align-arr" value="false"/>

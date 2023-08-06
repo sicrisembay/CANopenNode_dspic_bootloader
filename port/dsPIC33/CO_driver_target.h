@@ -475,6 +475,105 @@ typedef struct {
 
 #define CO_CONFIG_LEDS      0
 
+#define CO_CONFIG_SDO_SRV (CO_CONFIG_SDO_SRV_SEGMENTED | \
+                           CO_CONFIG_SDO_SRV_BLOCK | \
+                           CO_CONFIG_GLOBAL_FLAG_CALLBACK_PRE | \
+                           CO_CONFIG_GLOBAL_FLAG_TIMERNEXT | \
+                           CO_CONFIG_GLOBAL_FLAG_OD_DYNAMIC)
+#define CO_CONFIG_SDO_SRV_BUFFER_SIZE 1024
+#define CO_CONFIG_CRC16   (CO_CONFIG_CRC16_ENABLE)
+
+
+typedef union _WORD_VAL
+{
+    uint16_t Val;
+    uint8_t  v[2];
+    struct
+    {
+        uint8_t LB;
+        uint8_t HB;
+    } byte;
+    struct
+    {
+        unsigned char b0:1;
+        unsigned char b1:1;
+        unsigned char b2:1;
+        unsigned char b3:1;
+        unsigned char b4:1;
+        unsigned char b5:1;
+        unsigned char b6:1;
+        unsigned char b7:1;
+        unsigned char b8:1;
+        unsigned char b9:1;
+        unsigned char b10:1;
+        unsigned char b11:1;
+        unsigned char b12:1;
+        unsigned char b13:1;
+        unsigned char b14:1;
+        unsigned char b15:1;
+    } bits;
+} WORD_VAL;
+
+
+typedef union _DWORD_VAL
+{
+    uint32_t Val;
+    uint16_t w[2];
+    uint8_t  v[4];
+    struct
+    {
+      uint16_t word0;
+      uint16_t word1;
+    }word;
+    struct
+    {
+      uint8_t byte0;
+      uint8_t byte1;
+      uint8_t byte2;
+      uint8_t byte3;
+    }byte;
+    struct
+    {
+        WORD_VAL low;
+        WORD_VAL high;
+    }wordUnion;
+    struct
+    {
+        unsigned char b0:1;
+        unsigned char b1:1;
+        unsigned char b2:1;
+        unsigned char b3:1;
+        unsigned char b4:1;
+        unsigned char b5:1;
+        unsigned char b6:1;
+        unsigned char b7:1;
+        unsigned char b8:1;
+        unsigned char b9:1;
+        unsigned char b10:1;
+        unsigned char b11:1;
+        unsigned char b12:1;
+        unsigned char b13:1;
+        unsigned char b14:1;
+        unsigned char b15:1;
+        unsigned char b16:1;
+        unsigned char b17:1;
+        unsigned char b18:1;
+        unsigned char b19:1;
+        unsigned char b20:1;
+        unsigned char b21:1;
+        unsigned char b22:1;
+        unsigned char b23:1;
+        unsigned char b24:1;
+        unsigned char b25:1;
+        unsigned char b26:1;
+        unsigned char b27:1;
+        unsigned char b28:1;
+        unsigned char b29:1;
+        unsigned char b30:1;
+        unsigned char b31:1;
+    } bits;
+} DWORD_VAL;
+
 #ifdef __cplusplus
 }
 #endif /* __cplusplus */
